@@ -1,0 +1,5 @@
+$vcpkgRoot = "Path to vcpkg local checkout"
+Write-Host "Setup VCPKG_ROOT=$vcpkgRoot"
+Set-Item Env:VCPKG_ROOT $vcpkgRoot
+Set-Item Env:PATH "$vcpkgRoot;$env:PATH"
+

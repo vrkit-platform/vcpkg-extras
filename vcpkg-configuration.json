@@ -3,7 +3,7 @@
   "default-registry": {
     "kind": "git",
     "baseline": "782ccc18d8b819cdef6794a6c03eb3d9f7cd04aa",
-    "repository": "https://github.com/microsoft/vcpkg"
+    "repository": "https://github.com/vrkit-platform/vcpkg"
   },
   "registries": [
     {
@@ -13,6 +13,6 @@
     }
   ],
   "overlay-ports": [
-    "../vcpkg-vrkit-platform-overlays"
+    "./overlays/ports"
   ]
 }
